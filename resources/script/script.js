@@ -14,7 +14,7 @@ async function checkIpInFavourites(ip) {
         const response = await fetch(url);
         const favourites = await response.json();
 
-        console.log("datos recibidos:" + favourites);
+        // console.log("datos recibidos:" + favourites);
 
         // Comprobar si la IP está en la lista
         if (favourites.includes(ip)) {

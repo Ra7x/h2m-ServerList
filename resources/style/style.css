@@ -33,7 +33,7 @@ ion-icon{
 
 input[type=text] {
     border-radius: 5px;
-    padding: 8px;
+    padding: 7px;
     border: 2px solid rgb(128, 255, 0);
     outline: none; /* Opcional: para quitar el borde de enfoque predeterminado */
     background-color: #333;
