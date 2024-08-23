@@ -20,7 +20,7 @@ async function checkIpInFavourites(ip) {
         if (favourites.includes(ip)) {
             alert("The IP you've written is already in our list");
         } else {
-            alert("Well... It seems that the app you've written isn't in out list. Follow our 'README.txt' instructions to add it into your favourites.json or contant @oliatom350 or @ra7xul via Github to add in the global favourites.json. Thanks  ");
+            alert("Well... It seems that the app you've written isn't in our list. Follow our 'README.txt' instructions to add it into your favourites.json or contact @oliatom350 or @ra7xul via Github to add in the global favourites.json. Thanks  ");
         }
     } catch (error) {
         console.error('Error loading JSON from GitHub:', error);
