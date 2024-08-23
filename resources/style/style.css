@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: 'MWFont';
-    src: url('fonts/static/Orbitron-ExtraBold.ttf'); 
+    src: url('../fonts/static/Orbitron-ExtraBold.ttf'); 
 }
 
 .container-fluid {
-    background-image: url('images/wallpaper.png');
+    background-image: url('../images/wallpaper.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -33,7 +33,7 @@ ion-icon{
 
 input[type=text] {
     border-radius: 5px;
-    padding: 7px;
+    padding: 8px;
     border: 2px solid rgb(128, 255, 0);
     outline: none; /* Opcional: para quitar el borde de enfoque predeterminado */
     background-color: #333;
