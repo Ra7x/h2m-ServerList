@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'MWFont';
+    src: url('../fonts/static/Orbitron-ExtraBold.ttf'); 
+}
+
+.container-fluid {
+    background-image: url('../images/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.form-card{
+    width: 25rem; 
+    background-color: #333;
+    border: 2px solid chartreuse;
+    border-radius: 8px;
+    box-shadow: 0 0 10px chartreuse;  
+}
+
+.fs-3,.fs-6 {
+    font-family: 'MWFont';
+    color: chartreuse;
+}
+
+ion-icon{
+    height: 30px;
+    width: 30px;
+    fill: chartreuse;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px solid rgb(128, 255, 0);
+    outline: none; /* Opcional: para quitar el borde de enfoque predeterminado */
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    font-family: 'MWFont';
+}
+
+input[type=text]:focus {
+    border: 2px solid rgb(128, 255, 0);
+    transition: 0.25s;
+    box-shadow: 0 0 10px chartreuse;  
+    outline: none; /* Opcional: para quitar el borde de enfoque predeterminado */
+    
+}
+
+button[type=submit]{
+    border: 2px solid rgb(128, 255, 0);
+    background-color: #333;
+    color: rgb(128,255,0);
+    padding: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-family: 'MWFont';
+}
+
+button[type=submit]:active,button[type=submit]:hover{
+    background-color: rgb(128,255,0);
+    color: rgb(0,0,0);
+    box-shadow: 0 0 10px chartreuse; 
+    transition: 0.25s; 
+}

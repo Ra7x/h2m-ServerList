@@ -1,8 +1,11 @@
-Este es un listado de servidores para h2m-mod y un comprobador de IPs. 
+This is a list of servers for h2m-mod, an IP checker and an auto-downloader.
 
-Para añadir este listado de servidores a tu juego, descarga "favourites.json" y cópialo en la carpeta "players2"
+If you want to add this server list to your game, you have to options:
+ - Download "favourites.json" and copy it into the "players2" folder.
+ - Copy the update_serverList.bat in your game folder and execute it,
+ if the file isn't installed in your correct directory it will dowload it directly from our GitHub repository and launch your game 
 
-En caso de querer añadir una dirección IP ya sea de un servidor privado o de un servidor de https://master.iw4.zip/servers#serverModalCenter cópia la dirección IP
-y pégala en el archivo favourites.json con el formato adecuado
+If you want to add an specific IP address, whether from a private server or a server from https://master.iw4.zip/servers#serverModalCenter, copy the IP address and paste it into the favourites.json file in the appropriate format (Remember that the file
+should be located at the "players2 folder").
 
-Para comprobar si una IP que se desea añadir se encuentra ya en el listado utiliza el archivo "index.html" que contiene un script para saber si esa dirección IP se encuentra en el listado de favourites.json
+If you want to check if an IP address you wish to add is already in the list you downloaded from our repo, use the "index.html" file, which contains a script to determine if that IP address is in the favourites.json list.
