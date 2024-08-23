@@ -8,4 +8,4 @@ If you want to add this server list to your game, you have to options:
 If you want to add an specific IP address, whether from a private server or a server from https://master.iw4.zip/servers#serverModalCenter, copy the IP address and paste it into the favourites.json file in the appropriate format (Remember that the file
 should be located at the "players2 folder").
 
-If you want to check if an IP address you wish to add is already in the list you downloaded from our repo, use the "index.html" file, which contains a script to determine if that IP address is in the favourites.json list.
+If you want to check if an IP address you wish to add is already in the list you downloaded from our repo, use the "index.html" file, which contains a script to determine if that IP address is in the favourites.json list
