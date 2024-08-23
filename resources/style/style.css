@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'MWFont';
-    src: url('../fonts/static/Orbitron-ExtraBold.ttf'); 
+    src: url('https://github.com/Ra7x/h2m-ServerList/blob/master/resources/fonts/static/Orbitron-ExtraBold.ttf'); 
 }
 
 .container-fluid {
